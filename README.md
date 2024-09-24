@@ -24,11 +24,13 @@ Suggest possible payment values based on the input amount
 ## Example
 
 ```text
-    const valueByAmount= suggestionByAmount(1030000) // unknown number of values
-    const valueByInput= suggestionByInput(12) // The number of values is 5
+   import {suggestionByAmount, suggestionByInput} from 'vnd-suggestion'
 
-    console.log(valueByAmount) // result: [ 1030000, 1050000, 1100000, 1200000, 1500000 ]
-    console.log(valueByInput) // result: [ 1200, 12000, 120000, 1200000, 12000000 ]
+   const valueByAmount= suggestionByAmount(1030000) // unknown number of values
+   const valueByInput= suggestionByInput(12) // The number of values is 5
+
+   console.log(valueByAmount) // result: [ 1030000, 1050000, 1100000, 1200000, 1500000 ]
+   console.log(valueByInput) // result: [ 1200, 12000, 120000, 1200000, 12000000 ]
 ```
 
 ## License

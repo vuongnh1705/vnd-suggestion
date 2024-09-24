@@ -1,7 +1,7 @@
 {
   "name": "vnd-suggestion",
   "version": "1.0.0",
-  "main": "libs/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon"
@@ -10,8 +10,16 @@
     "vnd-suggestion"
   ],
   "author": "Vuong Nguyen",
-  "license": "ISC",
+  "license": "MIT",
   "description": "Gợi ý tiền (Việt Nam Đồng) dựa vào số tiền đầu vào cố định hoặc nhập tay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuongnh1705/vnd-suggestion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vuongnh1705/vnd-suggestion/issues"
+  },
+  "homepage": "https://github.com/vuongnh1705/vnd-suggestion#readme",
   "devDependencies": {
     "@types/node": "^20.12.12",
     "nodemon": "^3.1.0",
