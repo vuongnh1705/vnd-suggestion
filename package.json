@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon"
+    "start": "node dist/index.js"
   },
   "keywords": [
     "vnd-suggestion"
@@ -22,7 +22,6 @@
   "homepage": "https://github.com/vuongnh1705/vnd-suggestion#readme",
   "devDependencies": {
     "@types/node": "^20.12.12",
-    "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
